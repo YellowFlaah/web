@@ -1,0 +1,145 @@
+.bg-image {
+  background-image: "./images/bg.jpeg";
+  height: 100vh;
+  width: 100wh;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.navBar div {
+  margin-right: 3rem;
+}
+
+.navList a {
+  text-decoration: none;
+  color: grey;
+}
+
+.mainLogo {
+  max-width: 100%;
+  height: 50px;
+  padding-left: 3rem;
+  margin-top: 1rem;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navList li {
+  font-weight: bold;
+  color: #ffff;
+  font-size: 19px;
+  padding: 10px;
+}
+
+.mainSectiontwo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  align-items: center;
+}
+.text {
+  color: black;
+  font-size: 25px;
+  margin-top: 2rem;
+}
+.text h1 {
+  font-weight: 500;
+}
+
+.review {
+  flex: 1;
+  margin: 1rem;
+  box-shadow: 0 0 1px 0 rgb(24 94 224 / 15%), 0 1px 4px 0 rgb(24 94 224 / 15%);
+  background: #fafbff;
+  padding: 1rem;
+  position: relative;
+}
+
+.review .firstimage {
+  width: 80px;
+  border-radius: 50px;
+  margin-top: -3rem;
+  box-shadow: 0 0 2px 4px rgb(220 225 235 / 56%), 0 1px 4px 0 #cfdeee;
+  object-fit: cover;
+}
+
+.review small {
+  margin-top: 0.5rem;
+}
+
+.reviewContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 0rem 2rem;
+  position: relative;
+  margin: 5rem 0;
+}
+
+p {
+  margin-top: 1rem;
+}
+
+.bottom {
+  height: 5.6rem;
+  left: 0px;
+}
+.twos {
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.sideButtonDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  transform: translateY(-50%);
+}
+.firstbutton {
+  left: 1.1rem;
+}
+.secondbutton {
+  position: absolute;
+  right: 27px;
+}
+
+.sideButton {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background: #b91c1c;
+  color: #ffff !important;
+  cursor: pointer;
+}
+
+.name {
+  color: #135ca1;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0.3rem;
+  margin-top: 3rem;
+}
+
+.ago {
+  color: #626168;
+}
+
+.comma {
+  width: 70px;
+  object-fit: cover;
+}
+.fa {
+  font-size: 1rem;
+}

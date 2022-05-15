@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  text-decoration: none;
+  color: #9b938b;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+li {
+  list-style: none;
+}
+li {
+  margin-left: 1rem;
+}
+.MuiBox-root.css-1gsv261 {
+  border: none;
+}
+
+button#simple-tab-0,
+button#simple-tab-1 {
+  color: white;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+.diff {
+  height: 5rem;
+}
+
+@media (max-width: 600px) {
+  button#simple-tab-0,
+  button#simple-tab-1 {
+    font-size: 0.7rem;
+  }
+}

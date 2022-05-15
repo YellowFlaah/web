@@ -1,0 +1,51 @@
+.bg-image {
+  background-image: "./images/bg.jpeg";
+  height: 100vh;
+  width: 100wh;
+}
+.mainLogo {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navBars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.4rem;
+}
+
+.navList a {
+  text-decoration: none;
+
+  color: grey;
+  font-size: 0.9rem !important;
+}
+
+.mainLogo {
+  max-width: 100%;
+  height: 50px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navList li {
+  font-weight: bold;
+  color: #ffff;
+  padding: 10px;
+}
+
+.mc {
+  background: #2596be;
+  width: 30px;
+  height: 30px;
+  border-radius: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-left: 1.3rem;
+  align-items: center;
+  color: #ffff;
+}

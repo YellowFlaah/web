@@ -1,0 +1,75 @@
+.bgimage {
+  background-image: "./images/bg.jpeg";
+  background-size: cover;
+  height: 100vh;
+  width: 100wh;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  margin: 0;
+  margin: 0;
+  padding: 1rem 2.3rem;
+  align-items: center;
+}
+
+.listDiv {
+  margin-right: 9rem;
+}
+
+.navList a {
+  text-decoration: none;
+  color: #ffff;
+}
+.navlist a {
+  font-size: 1.2rem !important;
+  color: white !important;
+}
+.mainLogo {
+  object-fit: cover;
+  image-rendering: -webkit-optimize-contrast;
+  width: 324px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.navList li {
+  font-weight: bold;
+  color: #ffff;
+  font-size: 19px;
+  padding: 1rem;
+}
+.texts {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffff;
+  width: 800px;
+  margin-top: 8rem;
+  padding-left: 2rem;
+  line-height: 1.5;
+  word-spacing: 0.4rem;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainSection .button {
+  color: #ffff;
+  background-color: rgb(32, 32, 32);
+  font-size: 19px;
+  font-weight: bold;
+  border: none;
+  width: 170px;
+  height: 50px;
+  padding: 0.5rem 0.6rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+}

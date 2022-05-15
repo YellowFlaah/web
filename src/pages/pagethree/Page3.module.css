@@ -1,0 +1,148 @@
+.mainLogo {
+  max-width: 100%;
+  height: 50px;
+  padding-left: 3rem;
+  margin-top: 1.3rem;
+}
+
+.portrait {
+  width: 500px;
+  height: 550px;
+}
+
+.mainSectionone {
+  display: flex;
+  padding: 1rem;
+}
+.mainimage {
+  height: 349px;
+  object-fit: cover;
+}
+
+/* Container holding the image and the text */
+
+.blackText {
+  color: #475569;
+}
+.aside {
+  border: 1px solid #e5d7d7;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 1rem;
+}
+.aside p {
+  margin: 0.5rem;
+  font-weight: 600;
+}
+
+.order {
+  text-align: end;
+  color: #1e3a8a;
+  font-weight: 600;
+  font-size: 20px;
+  padding-right: 10rem;
+  margin-bottom: 2rem;
+}
+
+.box {
+  width: 30%;
+  background: url("../../asset/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 1rem;
+  position: relative;
+  color: white;
+  font-weight: 500;
+  padding: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: arial;
+  font-weight: 600;
+}
+
+.secondcontainer {
+  flex: 1;
+  width: 70%;
+}
+.border {
+  border: 1px solid #e5d7d7;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+.lastdiv {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e5d7d7;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+.left {
+  margin-left: 1rem;
+}
+.imageleft {
+  text-align: center;
+}
+.imageleft > div {
+  border: 1px solid #e5d7d7;
+  border-radius: 0.2rem;
+}
+.bottomimages {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.imageleft p {
+  margin-top: 0.4rem !important;
+}
+.bar {
+  display: flex;
+  width: 184px;
+  border: 2px solid #135ca1;
+  font-size: 0.7rem;
+}
+
+.firsts {
+  width: 50%;
+  background-color: #135ca1;
+  color: white;
+  text-align: left;
+}
+.firsts p {
+  margin: 0 !important;
+  padding: 0.3rem;
+}
+.seconds {
+  width: 50%;
+  text-align: left;
+}
+.seconds p {
+  border-bottom: 2px solid #135ca1;
+  margin: 0 !important;
+  padding: 0.3rem 1rem;
+}
+.seconds p:last-child {
+  border: none;
+}
+.sideimage {
+  display: flex;
+  align-items: center;
+}
+.imageleft {
+  width: 50%;
+}
+.slothimage {
+  width: 100%;
+}
+.contain {
+  display: flex;
+}
+@media (min-width: 1400px) {
+  .box {
+    font-size: 1.7rem;
+  }
+}
